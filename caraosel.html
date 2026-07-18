@@ -1,0 +1,32 @@
+<html lang="en">
+    <head>
+        <title>My animal safari</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <style>
+            body { position: relative; }
+            .safari-slide { height: 200px; text-align: center; padding-top: 75px; font-size: 1.rem; color: white; }
+            .slide-forest { background-color: darkgreen; }
+            .slide-ocean { background-color: steelblue; }
+            .slide-desert { background-color: orange; }
+            .sectiom { padding: 70px 20px; min-height: 300px }
+            #forest { background: honeydew; }
+            #ocean { background: aliceblue; }
+            #desert { background: lightyellow; }
+        </style>
+    </head>
+    <body data-spy="scroll" data-target="#safariNav" data-offset="60">
+        <div id="safariCarousel" class="Carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#safariCarosel" data-slide-to="0" class="active"></li>
+                <li data-target="#safariCarosel" data-slide-to="1"></li>
+                <li data-target="#safariCarosel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+<div class="carousel-item active safari-slide slide-forest"></div>
+    <div class="carousel-item active safari-slide slide-ocean"></div>
+        <div class="carousel-item active safari-slide slide-forest"> </div>
+            </div>
+            <a class="carousel-control-prev" href="#safari carousel" data-slide="prev"></a>
+        </div>
+    </body>
+</html>
