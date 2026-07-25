@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>replit</title>
+    </head>
+    <body>
+        <script>
+            let product = function (num1,num2) {
+p=<num1><num2>
+            document.write
+}
+
+let num1 = prompt("enter the 1st number")
+let num2 = prompt("enter the21st number")
+product (Num1,num2)
+</script>
+</body>
+</html>
