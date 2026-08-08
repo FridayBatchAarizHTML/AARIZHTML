@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>The Basement</title>
+        <style>
+            body.dark {
+                color: white;
+                background: black;
+            }
+            button {
+                display: block;
+                margin: 5px;
+            }
+            .textEntry {
+                margin-top: 12px;
+                margin-bottom: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>THE basement</h1>
+        <p id="story">I wanted to find my friend, and he was hiding in the basement</p> <br>
+        <p id="audio"></p>
+        <button onclick="goDark()">Get in the mood</button>
+        <div class="textEntry">type your name here, if you dare: <input type="text" id="name">
+            <button onclick="typeAndScream()">Please please please dont click me</button>
+            <button onclick="finishTheStory()">tell me what happended</button>
+<script>
+    function typeAndScream() {
+       
+        var personName = document.getElementById("name").value;
+        alert("i told you not to do that" + personName);
+        document.getElementById("audio").play();
+    }
+    function goDark() {
+        document.body.className = "dark";
+    }
+    function finishTheStory() {
+        document.getElementById("story").innerHTML = "so i carefully searched the damp dump you are";
+    }
+</script>
+
+        </div>
+    </body>
+</html>
